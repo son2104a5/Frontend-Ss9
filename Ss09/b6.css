@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 70px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+}
+
+div{
+    height: 200px;
+    width: 300px;
+    background: rgb(59, 50, 50);
+    text-align: center;
+    padding-top: 70px ;
+    transition: all 0.2s;
+}
+
+div:hover{
+    width: 325px;
+    height: 225px;
+    font-size: 50px;
+}

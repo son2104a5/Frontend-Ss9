@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    color: #fff;
+}
+
+div{
+    height: 200px;
+    width: 300px;
+    background: rgb(163, 163, 163);
+    text-align: center;
+    padding-top: 70px ;
+    transition: background 0.5s;
+}
+
+div:hover{
+    background-color: rgb(51, 43, 43);
+}

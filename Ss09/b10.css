@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+}
+
+p{
+    height: 200px;
+    width: 500px;
+    
+    background: rgb(104, 104, 104);
+    text-align: center;
+    padding: 70px ;
+    transition: all 0.2s;
+}
+
+p:hover{
+    border: 50px;
+    border-color: blue;
+}
